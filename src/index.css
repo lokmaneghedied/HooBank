@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+* {    
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.topBar {
+    -webkit-animation: slide-down 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: slide-down 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+  
+@-webkit-keyframes slide-down {
+  0% {
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+  
+@keyframes slide-down {
+  0% {
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.discount__bg{
+  background: linear-gradient(125.17deg, #272727 0%, #11101D 100%);
+  border-radius: 10px;
+}
+
+.textGradient__blue{
+  background: radial-gradient(64.18% 64.18% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.bgGradient__blue{
+  background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
+}
+
+.text__blue{
+  background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.blue__gradient {
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  filter: blur(123px);
+}
+
+.pink__gradient {
+  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+  filter: blur(900px);
+}
+
+.white__gradient {
+  background: rgba(255, 255, 255, 0.6);
+  filter: blur(750px);
+}
+
+.bgGradient__gray:hover{
+    background:-moz-linear-gradient(164deg, rgba(83, 83, 83, 1) 0%, rgba(60, 59, 59, 0.94) 0%, rgba(20, 16, 29, 1) 60%); 
+    background:-webkit-linear-gradient(164deg, rgba(83, 83, 83, 1) 0%, rgba(60, 59, 59, 0.94) 0%, rgba(20, 16, 29, 1) 60%);
+    background:-o-linear-gradient(164deg, rgba(83, 83, 83, 1) 0%, rgba(60, 59, 59, 0.94) 0%, rgba(20, 16, 29, 1) 60%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#14101D', endColorstr='#535353', GradientType=1 );
+    background:-ms-linear-gradient(164deg, rgba(83, 83, 83, 1) 0%, rgba(60, 59, 59, 0.94) 0%, rgba(20, 16, 29, 1) 60%);
+    background:linear-gradient(164deg, rgba(83, 83, 83, 1) 0%, rgba(60, 59, 59, 0.94) 0%, rgba(20, 16, 29, 1) 60%);
+}
