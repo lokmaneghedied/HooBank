@@ -5,8 +5,8 @@ const About = () => {
     return ( 
         <div id="about" className="w-full h-full lg:h-screen grid relative">
             {/* GRADIENT_BACKGROUND */}
-            {/* <div className="absolute z-10 w-[50%] h-[30%] lg:w-[30%] lg:h-[50%] rounded-full inset-y-1/3 right-0 blue__gradient" />
-            <div className="absolute z-0 w-[40%] h-[30%] lg:w-[30%] lg:h-[50%] rounded-full inset-y-1/3 right-0 white__gradient" /> */}
+            <div className="absolute z-10 w-[50%] h-[30%] lg:w-[30%] lg:h-[50%] rounded-full inset-y-1/3 right-0 blue__gradient" />
+            <div className="absolute z-0 w-[40%] h-[30%] lg:w-[30%] lg:h-[50%] rounded-full inset-y-1/3 right-0 white__gradient" />
                         {/* MAIN_DIV */}
             <div className="w-10/12 pt-6 lg:pt-0 lg:h-[90%] place-self-center space-y-6 xl:space-y-8">
                         {/* WHAT_PEOPLE_SAY_ABOUT_US */}

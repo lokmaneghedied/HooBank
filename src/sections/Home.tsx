@@ -44,15 +44,15 @@ const Home = () => {
                         <p>Our team of experts uses a methodology to identify the credit cards most likely to fit your needs.</p>
                         <p>We examine annual percentage rates, annual fees.</p>
                     </div>
-                    {/* <div className="absolute z-10 w-[50%] h-[30%] lg:w-[30%] lg:h-[50%] rounded-full bottom-0 left-0 blue__gradient" /> */}
+                    <div className="absolute z-10 w-[50%] h-[30%] lg:w-[30%] lg:h-[50%] rounded-full bottom-0 left-0 blue__gradient" />
                 </div>  
                     {/* ROBOT_IMAGE */}
                 <div className="lg:h-4/5 grid sm:flex-row-reverse sm:flex sm:justify-between space-y-3 sm:space-y-0">
                     <img className="lg:h-full h-64 lsm:h-80 md:h-96 place-self-end z-[20]" src={robot} alt="robot logo" />
                     {/* SHADOW_BACKGROUND */}
-                    {/* <div className="absolute z-0 w-[50%] h-[30%] lg:w-[10%] lg:h-[50%] rounded-full right-10 bottom-0 lg:right-10 lg:top-0 pink__gradient" />
+                    <div className="absolute z-0 w-[50%] h-[30%] lg:w-[10%] lg:h-[50%] rounded-full right-10 bottom-0 lg:right-10 lg:top-0 pink__gradient" />
                     <div className="absolute z-10 w-[50%] h-[10%] lg:w-[15%] lg:h-[50%] rounded-full bottom-0 right-10 lg:right-0 lg:bottom-40 white__gradient" />
-                    <div className="absolute z-0 w-[50%] h-[10%] lg:w-[20%] lg:h-[50%] lg:right-20 lg:bottom-40 bottom-0 right-10 blue__gradient" /> */}
+                    <div className="absolute z-0 w-[50%] h-[10%] lg:w-[20%] lg:h-[50%] lg:right-20 lg:bottom-40 bottom-0 right-10 blue__gradient" />
                     <div className="lg:hidden grid justify-items-center content-center w-full">
                         <GetStarted />
                     </div>

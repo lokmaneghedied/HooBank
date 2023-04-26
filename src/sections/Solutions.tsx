@@ -4,8 +4,8 @@ const Solutions = () => {
     return ( 
         <div id='solution' className="lg:h-full grid relative">
                 {/* GRADIENT_BACKGROUND */}
-            {/* <div className="absolute z-10 w-[50%] h-[30%] lg:w-[30%] lg:h-[50%] rounded-full inset-y-1/3 left-0 pink__gradient" />
-            <div className="absolute z-0 w-[40%] h-[30%] lg:w-[30%] lg:h-[50%] rounded-full inset-y-1/3 left-0 white__gradient" /> */}
+            <div className="absolute z-10 w-[50%] h-[30%] lg:w-[30%] lg:h-[50%] rounded-full inset-y-1/3 left-0 pink__gradient" />
+            <div className="absolute z-0 w-[40%] h-[30%] lg:w-[30%] lg:h-[50%] rounded-full inset-y-1/3 left-0 white__gradient" />
                 {/* MAIN_DIV */}
             <div className="w-10/12 lg:h-full place-self-center space-y-6">
                 {/* BILLING_DIV */}
