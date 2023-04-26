@@ -7,6 +7,7 @@ import { stats } from "../constants";
 const Home = () => {
     return ( 
         <div id="home" className="h-full lg:h-screen space-y-6 lg:space-y-0">
+            
             <div  className="h-[80%] lg:flex lg:justify-between lg:items-center text-white space-y-6 lg:space-y-0 lg:pt-10">
                 <div className="lg:h-4/5 lg:w-3/5 lg:grid lg:content-center pt-[80px] lg:pt-0 px-3 lg:px-0 lg:pl-12 xl:pl-16 2xl:pl-32 space-y-4  z-20">
                     {/* DISCOUNT */}
@@ -43,6 +44,7 @@ const Home = () => {
                         <p>Our team of experts uses a methodology to identify the credit cards most likely to fit your needs.</p>
                         <p>We examine annual percentage rates, annual fees.</p>
                     </div>
+                    {/* <div className="absolute z-10 w-[50%] h-[30%] lg:w-[30%] lg:h-[50%] rounded-full bottom-0 left-0 blue__gradient" /> */}
                 </div>  
                     {/* ROBOT_IMAGE */}
                 <div className="lg:h-4/5 grid sm:flex-row-reverse sm:flex sm:justify-between space-y-3 sm:space-y-0">

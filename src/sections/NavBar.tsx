@@ -24,21 +24,21 @@ const NavBar = () => {
       }, []);
 
     return ( 
-        <div className={isScrolled ? 'fixed w-full bg-[#00040f] text-white z-30' : 'fixed w-full bg-[#00040f] text-white'}>
+        <div className={isScrolled ? 'fixed w-full bg-[#00040f] text-white z-30' : 'fixed w-full text-white z-30'}>
             {/* NAV_FOR_DESKTOP */}
             <nav className="hidden md:visible md:flex justify-between py-4 px-10 w-full ">
                 <div className="lg:w-1/3 grid justify-items-start">
                     <img className="md:h-[32px] xl:h-[46px]" src={logo} alt="HooBank logo" />
                 </div>
-                <div className='lg:w-1/3 md:flex md:justify-end md:items-center md:text-sm lg:text-base xl:text-lg'>
+                <div className='lg:w-1/3 md:flex md:justify-end md:items-center md:text-sm lg:text-base xl:text-lg '>
                     {navLinks.map((navLink , index)=>(
-                        <ul className={navLinks.length - 1 === index ? 'mr-0  hover:underline underline-offset-8' : 'mr-4  hover:underline underline-offset-8'} key={navLink.id}><a href={`#${navLink.link}`}>{navLink.title}</a></ul>
+                        <ul className={navLinks.length - 1 === index ? 'mr-0  hover:underline underline-offset-8 hover:scale-95' : 'mr-4 hover:scale-95 hover:underline underline-offset-8'} key={navLink.id}><a href={`#${navLink.link}`}>{navLink.title}</a></ul>
                     ))}
                 </div>
             </nav>
             <nav>
                 {/* NAV_FOR_MOBILE */}
-            <div className="md:hidden w-full ">
+            <div className="md:hidden w-full bg-[#00040f]">
                 <nav className="flex justify-between p-4 w-full">
                     <img className="h-[24px] " src={logo} alt="HooBank logo" />
                     <img className="h-[15px] place-self-end" onClick={()=>setToggleNav(!toggleNav)} src={!toggleNav ? menu : close } alt="Toggle NavBar"/>

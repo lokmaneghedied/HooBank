@@ -84,3 +84,12 @@
     background:-ms-linear-gradient(164deg, rgba(83, 83, 83, 1) 0%, rgba(60, 59, 59, 0.94) 0%, rgba(20, 16, 29, 1) 60%);
     background:linear-gradient(164deg, rgba(83, 83, 83, 1) 0%, rgba(60, 59, 59, 0.94) 0%, rgba(20, 16, 29, 1) 60%);
 }
+
+.Background__Gray{
+    background:-moz-linear-gradient(164deg, rgba(83, 83, 83, 1) 0%, rgba(60, 59, 59, 0.94) 0%, rgba(20, 16, 29, 1) 60%); 
+    background:-webkit-linear-gradient(164deg, rgba(83, 83, 83, 1) 0%, rgba(60, 59, 59, 0.94) 0%, rgba(20, 16, 29, 1) 60%);
+    background:-o-linear-gradient(164deg, rgba(83, 83, 83, 1) 0%, rgba(60, 59, 59, 0.94) 0%, rgba(20, 16, 29, 1) 60%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#14101D', endColorstr='#535353', GradientType=1 );
+    background:-ms-linear-gradient(164deg, rgba(83, 83, 83, 1) 0%, rgba(60, 59, 59, 0.94) 0%, rgba(20, 16, 29, 1) 60%);
+    background:linear-gradient(164deg, rgba(83, 83, 83, 1) 0%, rgba(60, 59, 59, 0.94) 0%, rgba(20, 16, 29, 1) 60%);
+}

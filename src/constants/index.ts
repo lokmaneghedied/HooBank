@@ -1,4 +1,4 @@
-import { star , shield , send , people01 , people02 , people03 , airbnb , binance , coinbase , dropbox } from "../assets";
+import { star , shield , send , people01 , people02 , people03 , airbnb , binance , coinbase , dropbox , instagram , facebook , twitter , linkedin} from "../assets";
 
 
 export const navLinks = [
@@ -114,4 +114,27 @@ export const usefulLinks = ['Content','How it Works','Create','Explore','Terms &
 
 export const community = ['Help Center' , 'Partners' , 'Suggestions' , 'Blog' , 'Newsletters']
 
-export const partner = ['Our Partner' , 'Our Partner']
+export const partner = ['Our Partner' , 'Become a Partner']
+
+export const socialMedia = [
+    {
+        id:1,
+        icon : instagram,
+        name: 'instagram'
+    },
+    {
+        id:2,
+        icon : facebook,
+        name: 'facebook'
+    },
+    {
+        id:3,
+        icon : twitter,
+        name: 'twitter'
+    },
+    {
+        id:4,
+        icon : linkedin,
+        name: 'linkedIn'
+    }
+]
