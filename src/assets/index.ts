@@ -24,6 +24,10 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import Vector from "./Vector.svg"
+import home from "./home.png"
+import about from "./about.png"
+import solution from "./solution.png"
+import features from "./features.png"
 
 export {
   airbnb,
@@ -51,5 +55,9 @@ export {
   people01,
   people02,
   people03,
-  Vector
+  Vector,
+  home,
+  about,
+  solution,
+  features
 };

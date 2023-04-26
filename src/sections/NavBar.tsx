@@ -43,11 +43,12 @@ const NavBar = () => {
                     <img className="h-[24px] " src={logo} alt="HooBank logo" />
                     <img className="h-[15px] place-self-end" onClick={()=>setToggleNav(!toggleNav)} src={!toggleNav ? menu : close } alt="Toggle NavBar"/>
                 </nav>
-                {toggleNav && <div className="w-full grid justify-items-center space-y-4 text-xs pb-4 topBar">
+                {toggleNav && <div className="w-full h-74 grid content-center justify-items-center space-y-6 text-base pb-4 topBar">
                     {navLinks.map((navLink)=>(
                         <ul key={navLink.id}>
-                            <a className="hover:underline underline-offset-4" href={`#${navLink.link}`}>
-                                {navLink.title}
+                            <a className="hover:underline underline-offset-6 grid justify-items-center space-y-1 p-2" href={`#${navLink.link}`}>
+                                <img className="h-4" src={navLink.icon} alt={navLink.title } />
+                                <p>{navLink.title}</p>
                             </a>
                         </ul>
                 ))}</div>}

@@ -1,25 +1,29 @@
-import { star , shield , send , people01 , people02 , people03 , airbnb , binance , coinbase , dropbox , instagram , facebook , twitter , linkedin} from "../assets";
+import { star , shield , send , people01 , people02 , people03 , airbnb , binance , coinbase , dropbox , instagram , facebook , twitter , linkedin , home , about , solution , features} from "../assets";
 
 
 export const navLinks = [
     {
         id:1,
         title: 'Home',
+        icon : home,
         link:'home'
     },
     {
         id:2,
         title: 'About Us',
+        icon : about,
         link:'about'
     },
     {
         id:3,
         title:'Features',
+        icon : features,
         link:'features'
     },
     {
         id:4,
         title:'Solution',
+        icon : solution,
         link:'solution'
     }
 ]
